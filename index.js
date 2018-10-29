@@ -4,6 +4,7 @@ const bot = new Discord.Client();
 
 bot.on("ready", () =>{
   console.log("Bot is Ready");
+  console.log("kill Me");
 });
 
 bot.on("guildMemberAdd", member => {
